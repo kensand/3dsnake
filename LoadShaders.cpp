@@ -9,7 +9,7 @@
 #include <cstdlib>
 #include <iostream>
 #include "gl3w.h"
-#include "LoadShaders.h"
+#include "LoadShaders.hpp"
 
 #ifdef __cplusplus
 extern "C" {

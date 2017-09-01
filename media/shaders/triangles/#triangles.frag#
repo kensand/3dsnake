@@ -1,4 +1,4 @@
-#version 450 core
+#version 
 
 out vec4 fColor;
 
