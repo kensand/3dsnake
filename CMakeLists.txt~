@@ -1,0 +1,19 @@
+cmake_minimum_required (VERSION 2.6)
+project (3dSnake)
+ 
+# add the binary tree to the search path for include files
+# so that we will find TutorialConfig.h
+include_directories(include)
+
+#SET (CMAKE_SHARED_LINKER_FLAGS ${CMAKE_SHARED_LINKER_FLAGS_INIT} $ENV{LDFLAGS}
+#     CACHE STRING "Flags used by the linker during the creation of dll's.")
+
+#SET (CMAKE_MODULE_LINKER_FLAGS ${CMAKE_MODULE_LINKER_FLAGS_INIT} $ENV{LDFLAGS}
+#     CACHE STRING "Flags used by the linker during the creation of modules.")
+
+
+file(GLOB SOURCES "src/*.c*")
+
+# add the executable
+add_executable(3dsnake ${SOURCES})
+target_link_libraries(3dsnake dl glfw GL glut GLEW GLU)

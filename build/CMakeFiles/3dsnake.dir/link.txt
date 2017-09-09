@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/3dsnake.dir/src/3dsnake.cpp.o CMakeFiles/3dsnake.dir/src/LoadShaders.cpp.o CMakeFiles/3dsnake.dir/src/ObjectLoader.cpp.o CMakeFiles/3dsnake.dir/src/gl3w.c.o  -o 3dsnake -ldl -lglfw -lGL -lglut -lGLEW -lGLU 

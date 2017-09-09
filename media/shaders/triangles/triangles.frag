@@ -1,8 +1,12 @@
 #version 450 core
-
+in vec4 Color;
 out vec4 fColor;
+
+uniform vec4 Ambient;
 
 void main()
 {
-    fColor = vec4(0.5, 0.4, 0.8, 1.0);
+   
+    vec4 scatteredLight = Ambient;
+    fColor = Color; //min(Color * scatteredLight, vec4(1.0));
 }
