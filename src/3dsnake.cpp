@@ -182,8 +182,8 @@ init( void )
   ///*
   ShaderInfo  shaders[] =
     {
-      { GL_VERTEX_SHADER, "/home/kenny/Projects/3dsnake2/media/shaders/triangles/triangles.vert" },
-      { GL_FRAGMENT_SHADER, "/home/kenny/Projects/3dsnake2/media/shaders/triangles/triangles.frag" },
+      { GL_VERTEX_SHADER, "/home/kenny/Projects/3dsnake/media/shaders/triangles/triangles.vert" },
+      { GL_FRAGMENT_SHADER, "/home/kenny/Projects/3dsnake/media/shaders/triangles/triangles.frag" },
       { GL_NONE, NULL }
     };
   //*/

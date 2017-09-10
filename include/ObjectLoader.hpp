@@ -7,8 +7,8 @@
 bool loadOBJ(
 	const char * path, 
 	std::vector<GLfloat *> & out_vertices, 
-	std::vector<GLfloat *> & out_uvs, 
-	std::vector<GLfloat *> & out_normals
+	std::vector<GLfloat *> & out_uvs,
+    std::vector<GLfloat *> & out_normals
 );
 
 

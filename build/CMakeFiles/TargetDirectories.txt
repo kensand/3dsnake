@@ -1,3 +1,0 @@
-/home/kenny/Projects/3dsnake2/build/CMakeFiles/rebuild_cache.dir
-/home/kenny/Projects/3dsnake2/build/CMakeFiles/3dsnake.dir
-/home/kenny/Projects/3dsnake2/build/CMakeFiles/edit_cache.dir
