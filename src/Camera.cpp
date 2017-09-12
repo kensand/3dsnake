@@ -1,0 +1,13 @@
+#include "vgl.h"
+#include "vmath.h"
+#include "LoadShaders.hpp"
+#include "ObjectLoader.hpp"
+#include <GLFW/glfw3.h>
+#include <vector>
+#include <string>
+#include <cmath>
+#include <math.h>
+#include <cstdio>
+#include <cstdlib>
+#include <X11/Xlib.h>
+#include "Object.hpp"
